@@ -6,5 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   // GitHub Pages serves from /<repo-name>/ — set base dynamically
-  base: process.env.BASE_URL || '/',
+  base: '/test-portfolio-mn9t02ef/',
 })
